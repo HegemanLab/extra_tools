@@ -53,7 +53,7 @@ def finder(in_list, compounds):
 def writeToCSV(mzs_and_counts, output_filename):
     with open(output_filename, 'wb') as csvfile:
         writer = csv.writer(csvfile)
-        writer.writerow(['mz', 'count'])
+        writer.writerow(['mzs', 'count'])
         for x in range(0, len(mzs_and_counts[1])):
             writer.writerow([mzs_and_counts[0][x], mzs_and_counts[1][x]])
 
@@ -61,7 +61,12 @@ def writeToCSV(mzs_and_counts, output_filename):
 # Reads in mz values from a file and returns list of mzs
 def readFromCSV(filename):
     df = pd.read_csv(filename)
-    return list(df['mz']) # Make sure file has a column named mz
+
+    # Make sure file has a column named mz
+    out = list(df['mz'])
+
+    return out
+
 
 
 # Compound file must have mz as column header
@@ -74,25 +79,28 @@ def processDuplicates(files_list, outputname, compound_file):
 
 
 # Example use
-nfiles = [
-    'neg-ACM_sept16_T1R2_GL2_method1.csv',
-    'neg-ACM_sept16_T1R2_GL7_method1.csv',
-    'neg-ACM_sept16_T1R3_GL7_method1.csv',
-    'neg-ACM_sept16_T1R3_GL21_method1.csv'
-]
-
-pfiles = [
-    'pos-ACM_sept16_T1R2_GL2_method1.csv',
-    'pos-ACM_sept16_T1R2_GL7_method1.csv',
-    'pos-ACM_sept16_T1R3_GL7_method1.csv',
-    'pos-ACM_sept16_T1R3_GL21_method1.csv'
-]
-
-compoundfilep = "GLexactmasses-pos.csv"
-compoundfilen = "GLexactmasses-neg.csv"
-
-processDuplicates(nfiles, 'neg-ACM-compounds.csv', compoundfilen)
-processDuplicates(pfiles, 'pos-ACM-compounds.csv', compoundfilep)
+# nfiles = [
+#     "neg-ACM_sept16_T1R2_GL2_method1.csv",
+#     "neg-ACM_sept16_T1R2_GL7_method1.csv",
+#     "neg-ACM_sept16_T1R2_GL21_method1.csv",
+#     "neg-ACM_sept16_T1R3_GL7_method1.csv",
+#     "neg-ACM_sept16_T1R3_GL20_method1.csv",
+#     "neg-ACM_sept16_T1R3_GL21_method1.csv"
+# ]
+#
+# pfiles = [
+#     "pos-ACM_sept16_T1R2_GL2_method1.csv",
+#     "pos-ACM_sept16_T1R2_GL7_method1.csv",
+#     "pos-ACM_sept16_T1R2_GL21_method1.csv",
+#     "pos-ACM_sept16_T1R3_GL7_method1.csv",
+#     "pos-ACM_sept16_T1R3_GL20_method1.csv",
+#     "pos-ACM_sept16_T1R3_GL21_method1.csv"
+# ]
+# compoundfilep = "GLexactmasses-pos.csv"
+# compoundfilen = "GLexactmasses-neg.csv"
+#
+# processDuplicates(nfiles, 'method1-neg-compounds.csv', compoundfilen)
+# processDuplicates(pfiles, 'method1-pos-compounds.csv', compoundfilep)
 
 print('compounds have been compared.')
 
