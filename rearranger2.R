@@ -14,8 +14,15 @@ library(installr)
 
 # Only run this line if you have not already installed rtools on the computer. 
 # This takes a long time to run so don't run it if you don't need it.
-# Also make sure to check the PATH option during the install. 
-# install.rtools()
+# Also make sure to check the PATH option during the install and/or run the line 
+# below install.rtools(). You may need to update the file path to where your download is saved.
+install.rtools()
+# Sys.setenv(R_ZIPCMD= "C:/Rtools/bin/zip") 
+
+# if you've installed Rtools correctly you should be able to run the following command and get
+# a similar response. As long as the response to the command is not "zip" you should be set. 
+# > Sys.getenv("R_ZIPCMD", "zip")   
+# [1] "C:/Rtools/bin/zip"
 
 #### INPUTS - set these values. 
 # Filepath to folder that holds 1 folder for each Rep
