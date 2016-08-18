@@ -427,7 +427,7 @@ makeSPlot <- function(file_path, round_to_digits, match_tolerance, normalize,
   plsObj <- plsr(as.matrix(groups) ~ as.matrix(tDF), ncomp = num_components_in_model, validation = "LOO")
   
   setwd(returnPath)
-  
+
   # Makes a model matrix from the data in pls (from the pls analysis). Model matrix seems similar to normal matrix. 
   mo <-model.matrix(plsObj)
   
@@ -515,7 +515,7 @@ plsObj <- generatePLSObject(file_path = fileLocation, round_to_digits = valueToR
                             num_components_in_model = numComponents)
 
 # Make a plot to check the RMSEP of your current model based on the supplied number of components
-plot(RMSEP(plsObj))
+plot(RMSEP(plsObj), legendpos = "topright")
 
 # Make the score plot
 makeScorePlot(pls_object = plsObj, x_comp = xpls, y_comp = ypls, 
