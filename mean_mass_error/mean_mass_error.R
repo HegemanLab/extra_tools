@@ -19,7 +19,7 @@ i = 1
 ppm <- data.frame()
 for(mass in df[,-c(0:3)]) {
   name = paste(colnames(df[3+i]), "_ppm", sep="")
-  ppm <- c(abs((df$exact_mass - mass)/df$exact_mass*1e6))
+  ppm <- c(abs((df$known_mass - mass)/df$exact_mass*1e6))
   df[[name]] <- ppm
   i=i+1
 }
