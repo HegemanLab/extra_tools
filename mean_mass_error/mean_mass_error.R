@@ -13,19 +13,19 @@
 
 df <- read.table('input-data.tsv', header=T)
 
-# calculate PPM mass error for standards in each sample
+# Calculate PPM mass error for standards in each sample
 # append mass errors as column to df per sample
 i = 1
 ppm <- data.frame()
 for(mass in df[,-c(0:3)]) {
-  name = paste(colnames(df[3+i]),"_ppm",sep="")
-  ppm <- c(abs((df$exact_mass-mass)/df$exact_mass*1e6))
+  name = paste(colnames(df[3+i]), "_ppm", sep="")
+  ppm <- c(abs((df$exact_mass - mass)/df$exact_mass*1e6))
   df[[name]] <- ppm
   i=i+1
 }
 
-# calculate average mass error for each standard append
-# as column to df
+# Calculate mean mass error for each standard append as
+# column to df
 n = (length(df)-3)/2
 df$avg_ppm <- c(rowMeans(df[,(3+n):(3+2*n)]))
 
