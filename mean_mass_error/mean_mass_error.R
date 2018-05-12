@@ -18,8 +18,8 @@ df <- read.table('input-data.tsv', header=T)
 i = 1
 ppm <- data.frame()
 for(mass in df[,-c(1:3)]) {
-  name = paste(colnames(df[3+i]), "_ppm", sep="")
   ppm <- c(abs((df$known_mass-mass)/df$known_mass*1e6))
+  name = paste(colnames(df[3+i]), "_ppm", sep="")
   df[[name]] <- ppm
   i=i+1
 }
