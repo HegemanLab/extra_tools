@@ -12,7 +12,6 @@
 # See example input and output files.
 
 df <- read.table('input-data.tsv',header=T)
-#df <- read.table('output-data.tsv', header=T)
 
 # Calculate PPM mass error for standards in each sample.
 # Append mass errors as a column to df per sample.
@@ -28,7 +27,7 @@ for(mass in df[,-c(1:3)]) {
 # Calculate mean mass error for each standard.
 # Append as column to df.
 n = (length(df)-3)/2
-df$avg_ppm <- c(rowMeans(df[,(3+n):(3+2*n)]))
+df$avg_ppm <- c(rowMeans(df[,(3+n):(3+n+n)]))
 
 print(paste("Average PPM mass error:",mean(df$avg_ppm)))
 
