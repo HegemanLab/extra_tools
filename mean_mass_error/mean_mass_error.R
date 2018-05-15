@@ -17,8 +17,11 @@ df <- read.table('input-data.tsv',header=T)
 # Append mass errors as a column to df per sample.
 i = 1
 ppm <- data.frame()
-for(mass in df[,-c(1:3)]) {
-  ppm <- c(abs((df$known_mass-mass)/df$known_mass*1e6))
+# copy without columns 1 thru 3
+mass_df <- df[,-c(1:3)]
+n <- ncol(mass_df)
+for(mass in mass_df) {
+  ppm <- abs((df$known_mass-mass)/df$known_mass*1e6)
   name = paste(colnames(df[3+i]),"_ppm",sep="")
   df[[name]] <- ppm
   i=i+1
@@ -26,9 +29,13 @@ for(mass in df[,-c(1:3)]) {
 
 # Calculate mean mass error for each standard.
 # Append as column to df.
-n = (length(df)-3)/2
-df$avg_ppm <- c(rowMeans(df[,(3+n):(3+n+n)]))
+avg_ppm <- rowMeans(df[,(3+n+1):(3+n+n)])
+var_pm <- rowSums( df[,(3+n+1):(3+n+n)]^2 ) / (n - 1 )
+df$avg_ppm <- avg_ppm
+df$var_pm <- var_pm
+df$n <- n
 
 print(paste("Average PPM mass error:",mean(df$avg_ppm)))
+print(paste("Overall SD per million:",sqrt(sum(df$var_pm)/nrow(mass_df))))
 
 write.table(df,file='output-data.tsv',sep="\t",row.names=F)
