@@ -38,4 +38,8 @@ df$n <- n
 print(paste("Average PPM mass error:",mean(df$avg_ppm)))
 print(paste("Overall SD per million:",sqrt(sum(df$var_pm)/nrow(mass_df))))
 
+#install.packages("ggplot2",repos = "http://cran.us.r-project.org")
+library(ggplot2)
 write.table(df,file='output-data.tsv',sep="\t",row.names=F)
+p <- ggplot(df, aes(known_mass, avg_ppm)) + geom_point() + expand_limits(y=0)
+ggsave("output-data.png")
