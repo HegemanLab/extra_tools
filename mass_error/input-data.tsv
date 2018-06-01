@@ -1,91 +1,91 @@
-"chemical"	"formula"	"known_mass"	"sample_name"	"observed_mass"
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-15"	74.1536
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-16"	74.1505
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-17"	74.1504
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-18"	74.1572
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-19"	74.1612
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-20"	74.1685
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-21"	74.1582
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-22"	74.1573
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-23"	74.1565
-"N-methylacetamide"	"C3H7NO"	74.06004	"qc-24"	74.1612
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-15"	160.744
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-16"	160.7395
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-17"	160.7374
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-18"	160.719
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-19"	160.742
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-20"	160.7557
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-21"	160.7507
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-22"	160.7441
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-23"	160.7542
-"1,3-naphthalenediol"	"C10H8O2"	161.059706	"qc-24"	160.731
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-15"	175.7325
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-16"	175.729
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-17"	175.7365
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-18"	175.7369
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-19"	175.733
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-20"	175.7346
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-21"	175.7417
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-22"	175.7388
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-23"	175.733
-"7-amino-4-methylcoumarin"	"C10H9NO2"	176.070605	"qc-24"	175.7412
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-15"	193.7738
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-16"	193.7682
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-17"	193.772
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-18"	193.7713
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-19"	193.7653
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-20"	193.7786
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-21"	193.7682
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-22"	193.7596
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-23"	193.7786
-"2-Phenylindole"	"C14H11N"	194.096425	"qc-24"	193.7707
-"undecanophenone"	"C17H26O"	247.205641	"qc-15"	246.961
-"undecanophenone"	"C17H26O"	247.205641	"qc-16"	246.9617
-"undecanophenone"	"C17H26O"	247.205641	"qc-17"	246.9661
-"undecanophenone"	"C17H26O"	247.205641	"qc-18"	246.9686
-"undecanophenone"	"C17H26O"	247.205641	"qc-19"	246.9773
-"undecanophenone"	"C17H26O"	247.205641	"qc-20"	246.9691
-"undecanophenone"	"C17H26O"	247.205641	"qc-21"	246.9617
-"undecanophenone"	"C17H26O"	247.205641	"qc-22"	246.96
-"undecanophenone"	"C17H26O"	247.205641	"qc-23"	246.9659
-"undecanophenone"	"C17H26O"	247.205641	"qc-24"	246.965
-"abscisic acid"	"C15H20O4"	265.143436	"qc-15"	264.9126
-"abscisic acid"	"C15H20O4"	265.143436	"qc-16"	264.8977
-"abscisic acid"	"C15H20O4"	265.143436	"qc-17"	264.9054
-"abscisic acid"	"C15H20O4"	265.143436	"qc-18"	264.8881
-"abscisic acid"	"C15H20O4"	265.143436	"qc-19"	264.8917
-"abscisic acid"	"C15H20O4"	265.143436	"qc-20"	264.9077
-"abscisic acid"	"C15H20O4"	265.143436	"qc-21"	264.9175
-"abscisic acid"	"C15H20O4"	265.143436	"qc-22"	264.9003
-"abscisic acid"	"C15H20O4"	265.143436	"qc-23"	264.8904
-"abscisic acid"	"C15H20O4"	265.143436	"qc-24"	264.9016
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-15"	307.0532
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-16"	307.058
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-17"	307.0524
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-18"	307.058
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-19"	307.045
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-20"	307.0528
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-21"	307.0449
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-22"	307.0482
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-23"	307.0571
-"di-n-pentyl phthalate"	"C18H26O4"	307.190386	"qc-24"	307.0474
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-15"	355.0242
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-16"	355.0127
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-17"	355.0161
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-18"	355.0115
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-19"	355.0299
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-20"	355.0177
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-21"	355.0164
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-22"	355.0102
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-23"	355.017
-"chlorogenic acid"	"C16H18O9"	355.102361	"qc-24"	355.0168
-"cortisone"	"C21H28O5"	361.200951	"qc-15"	361.136
-"cortisone"	"C21H28O5"	361.200951	"qc-16"	361.1382
-"cortisone"	"C21H28O5"	361.200951	"qc-17"	361.1448
-"cortisone"	"C21H28O5"	361.200951	"qc-18"	361.1339
-"cortisone"	"C21H28O5"	361.200951	"qc-19"	361.1348
-"cortisone"	"C21H28O5"	361.200951	"qc-20"	361.1422
-"cortisone"	"C21H28O5"	361.200951	"qc-21"	361.1507
-"cortisone"	"C21H28O5"	361.200951	"qc-22"	361.1439
-"cortisone"	"C21H28O5"	361.200951	"qc-23"	361.1342
-"cortisone"	"C21H28O5"	361.200951	"qc-24"	361.1297
+"molecule"	"formula"	"monoisotopic_mass"	"sample_name"	"polarity"	"observed_mass"
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-15"	"positive"	74.1536
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-16"	"positive"	74.1505
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-17"	"positive"	74.1504
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-18"	"positive"	74.1572
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-19"	"positive"	74.1612
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-20"	"positive"	74.1685
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-21"	"positive"	74.1582
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-22"	"positive"	74.1573
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-23"	"positive"	74.1565
+"N-methylacetamide"	"C3H7NO"	73.052764	"qc-24"	"positive"	74.1612
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-15"	"positive"	160.744
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-16"	"positive"	160.7395
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-17"	"positive"	160.7374
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-18"	"positive"	160.719
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-19"	"positive"	160.742
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-20"	"positive"	160.7557
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-21"	"positive"	160.7507
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-22"	"positive"	160.7441
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-23"	"positive"	160.7542
+"1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-24"	"positive"	160.731
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-15"	"positive"	175.7325
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-16"	"positive"	175.729
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-17"	"positive"	175.7365
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-18"	"positive"	175.7369
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-19"	"positive"	175.733
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-20"	"positive"	175.7346
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-21"	"positive"	175.7417
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-22"	"positive"	175.7388
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-23"	"positive"	175.733
+"7-amino-4-methylcoumarin"	"C10H9NO2"	175.063329	"qc-24"	"positive"	175.7412
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-15"	"positive"	193.7738
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-16"	"positive"	193.7682
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-17"	"positive"	193.772
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-18"	"positive"	193.7713
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-19"	"positive"	193.7653
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-20"	"positive"	193.7786
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-21"	"positive"	193.7682
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-22"	"positive"	193.7596
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-23"	"positive"	193.7786
+"2-Phenylindole"	"C14H11N"	193.089149	"qc-24"	"positive"	193.7707
+"undecanophenone"	"C17H26O"	246.198365	"qc-15"	"positive"	246.961
+"undecanophenone"	"C17H26O"	246.198365	"qc-16"	"positive"	246.9617
+"undecanophenone"	"C17H26O"	246.198365	"qc-17"	"positive"	246.9661
+"undecanophenone"	"C17H26O"	246.198365	"qc-18"	"positive"	246.9686
+"undecanophenone"	"C17H26O"	246.198365	"qc-19"	"positive"	246.9773
+"undecanophenone"	"C17H26O"	246.198365	"qc-20"	"positive"	246.9691
+"undecanophenone"	"C17H26O"	246.198365	"qc-21"	"positive"	246.9617
+"undecanophenone"	"C17H26O"	246.198365	"qc-22"	"positive"	246.96
+"undecanophenone"	"C17H26O"	246.198365	"qc-23"	"positive"	246.9659
+"undecanophenone"	"C17H26O"	246.198365	"qc-24"	"positive"	246.965
+"abscisic acid"	"C15H20O4"	264.13616	"qc-15"	"positive"	264.9126
+"abscisic acid"	"C15H20O4"	264.13616	"qc-16"	"positive"	264.8977
+"abscisic acid"	"C15H20O4"	264.13616	"qc-17"	"positive"	264.9054
+"abscisic acid"	"C15H20O4"	264.13616	"qc-18"	"positive"	264.8881
+"abscisic acid"	"C15H20O4"	264.13616	"qc-19"	"positive"	264.8917
+"abscisic acid"	"C15H20O4"	264.13616	"qc-20"	"positive"	264.9077
+"abscisic acid"	"C15H20O4"	264.13616	"qc-21"	"positive"	264.9175
+"abscisic acid"	"C15H20O4"	264.13616	"qc-22"	"positive"	264.9003
+"abscisic acid"	"C15H20O4"	264.13616	"qc-23"	"positive"	264.8904
+"abscisic acid"	"C15H20O4"	264.13616	"qc-24"	"positive"	264.9016
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-15"	"positive"	307.0532
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-16"	"positive"	307.058
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-17"	"positive"	307.0524
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-18"	"positive"	307.058
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-19"	"positive"	307.045
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-20"	"positive"	307.0528
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-21"	"positive"	307.0449
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-22"	"positive"	307.0482
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-23"	"positive"	307.0571
+"di-n-pentyl phthalate"	"C18H26O4"	306.18311	"qc-24"	"positive"	307.0474
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-15"	"positive"	355.0242
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-16"	"positive"	355.0127
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-17"	"positive"	355.0161
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-18"	"positive"	355.0115
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-19"	"positive"	355.0299
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-20"	"positive"	355.0177
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-21"	"positive"	355.0164
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-22"	"positive"	355.0102
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-23"	"positive"	355.017
+"chlorogenic acid"	"C16H18O9"	354.095085	"qc-24"	"positive"	355.0168
+"cortisone"	"C21H28O5"	360.193675	"qc-15"	"positive"	361.136
+"cortisone"	"C21H28O5"	360.193675	"qc-16"	"positive"	361.1382
+"cortisone"	"C21H28O5"	360.193675	"qc-17"	"positive"	361.1448
+"cortisone"	"C21H28O5"	360.193675	"qc-18"	"positive"	361.1339
+"cortisone"	"C21H28O5"	360.193675	"qc-19"	"positive"	361.1348
+"cortisone"	"C21H28O5"	360.193675	"qc-20"	"positive"	361.1422
+"cortisone"	"C21H28O5"	360.193675	"qc-21"	"positive"	361.1507
+"cortisone"	"C21H28O5"	360.193675	"qc-22"	"positive"	361.1439
+"cortisone"	"C21H28O5"	360.193675	"qc-23"	"positive"	361.1342
+"cortisone"	"C21H28O5"	360.193675	"qc-24"	"positive"	361.1297
