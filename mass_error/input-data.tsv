@@ -1,14 +1,4 @@
 "molecule"	"formula"	"monoisotopic_mass"	"sample_name"	"polarity"	"observed_mass"
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-15"	"positive"	74.1536
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-16"	"positive"	74.1505
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-17"	"positive"	74.1504
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-18"	"positive"	74.1572
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-19"	"positive"	74.1612
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-20"	"positive"	74.1685
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-21"	"positive"	74.1582
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-22"	"positive"	74.1573
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-23"	"positive"	74.1565
-"N-methylacetamide"	"C3H7NO"	73.052764	"qc-24"	"positive"	74.1612
 "1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-15"	"positive"	160.744
 "1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-16"	"positive"	160.7395
 "1,3-naphthalenediol"	"C10H8O2"	160.05243	"qc-17"	"positive"	160.7374
